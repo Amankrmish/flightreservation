@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.bharath.flightreservation.entities.Reservation;
-import com.bharath.flightreservation.repos.FlightRepository;
-import com.bharath.flightreservation.repos.PassengerRepository;
-import com.bharath.flightreservation.repos.ReservationRepository;
-import com.bharath.flightreservation.util.EmailUtil;
-import com.bharath.flightreservation.util.PDFGenerator;
+import com.flightreservation.entities.Reservation;
+import com.flightreservation.repos.FlightRepository;
+import com.flightreservation.repos.PassengerRepository;
+import com.flightreservation.repos.ReservationRepository;
+import com.flightreservation.util.EmailUtil;
+import com.flightreservation.util.PDFGenerator;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
